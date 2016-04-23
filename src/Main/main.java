@@ -4,6 +4,7 @@ import StringDemo.StringDemo;
 import StandardClassDemo.StandardClassDemo;
 import MathsDemo.MathsDemo;
 import ArrayDemo.ArrayDemo;
+import SortDemo.SortDemo;
 
 public class main {
 
@@ -11,22 +12,31 @@ public class main {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World");
 		Simple tstSimple = new Simple();
+		StringDemo tstString = new StringDemo();
+		StandardClassDemo tstSCD = new StandardClassDemo();
+		MathsDemo tstMath = new MathsDemo();
+		ArrayDemo tstArray = new ArrayDemo();
+		SortDemo tstSort = new SortDemo();
+		
 		tstSimple.testPrimitiveTypes();
 		tstSimple.testExpressions();
 		tstSimple.testConditions();
 		tstSimple.testLoop();
-		StringDemo tstString = new StringDemo();
+		
 		tstString.testStringEqual();
 		tstString.testStringCompare();
 		tstString.testSubString();
 		tstString.testFind();
-		StandardClassDemo tstSCD = new StandardClassDemo();
+		
 		tstSCD.testInteger();
 		tstSCD.testDouble();
-		MathsDemo tstMath = new MathsDemo();
+		
 		tstMath.testMaths();
-		ArrayDemo tstArray = new ArrayDemo();
+		
 		tstArray.testInitialization();
+		
+		tstSort.InsertionSort();
+		
 	}
 
 }
