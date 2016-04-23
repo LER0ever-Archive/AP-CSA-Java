@@ -3,6 +3,7 @@ import Simple.Simple;
 import StringDemo.StringDemo;
 import StandardClassDemo.StandardClassDemo;
 import MathsDemo.MathsDemo;
+import ArrayDemo.ArrayDemo;
 
 public class main {
 
@@ -24,7 +25,8 @@ public class main {
 		tstSCD.testDouble();
 		MathsDemo tstMath = new MathsDemo();
 		tstMath.testMaths();
-		
+		ArrayDemo tstArray = new ArrayDemo();
+		tstArray.testInitialization();
 	}
 
 }

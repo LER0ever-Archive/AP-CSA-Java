@@ -1,6 +1,7 @@
 package Sort;
 
 public class Sort {
+	
 	public void InsertionSort(){
 		
 	}
@@ -9,7 +10,7 @@ public class Sort {
 		
 	}
 	
-	public void SelectSort(){
+	public void SelectionSort(){
 		
 	}
 	
