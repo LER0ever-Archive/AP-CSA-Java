@@ -35,7 +35,7 @@ public class main {
 		
 		tstArray.testInitialization();
 		
-		tstSort.InsertionSort();
+		tstSort.SelectionSort();
 		
 	}
 

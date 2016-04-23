@@ -12,6 +12,7 @@ public class SortDemo {
 		System.out.println("\nInit Complete: ");
 		for (double num : dl)
 			System.out.print(num + " ");
+		System.out.println();
 	}
 	public void Swap(int i, int j){
 		double temp = dl[i];
@@ -19,15 +20,35 @@ public class SortDemo {
 		dl[j] = temp;
 	}
 	
-	public void InsertionSort(){
+	public void SelectionSort(){
 		Init();
+		int maxPos;
+		double max;
+		for (int i=0; i< dl.length; i++)
+		{
+			max = dl[i];
+			maxPos = i;
+			for (int j=i+1; j< dl.length; j++)
+			{
+				if (max < dl[j])
+				{
+					max = dl[j];
+					maxPos = j;
+				}
+			}
+			Swap(i, maxPos);
+		}
+		System.out.println("After Selection Sort:");
+		for (double num : dl)
+			System.out.print(num + " ");
 	}
+	
 	
 	public void QuickSort(){
 		
 	}
 	
-	public void SelectionSort(){
+	public void InsertionSort(){
 		
 	}
 	
