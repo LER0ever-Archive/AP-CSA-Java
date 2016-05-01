@@ -39,6 +39,7 @@ public class SortDemo {
         System.out.println("After Selection Sort:");
         for (double num : dl)
             System.out.print(num + " ");
+        System.out.println();
     }
 
 

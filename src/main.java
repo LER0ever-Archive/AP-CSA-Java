@@ -1,10 +1,3 @@
-/*import Simple.Simple;
-//import StringDemo.StringDemo;
-import StandardClassDemo.StandardClassDemo;
-import MathsDemo.MathsDemo;
-import ArrayDemo.ArrayDemo;
-import SortDemo.SortDemo;
-*/
 
 public class main {
 
@@ -17,7 +10,7 @@ public class main {
         MathsDemo tstMath = new MathsDemo();
         ArrayDemo tstArray = new ArrayDemo();
         SortDemo tstSort = new SortDemo();
-
+        OODemo tstOO = new OODemo();
 
         tstSimple.testPrimitiveTypes();
         tstSimple.testExpressions();
@@ -39,6 +32,8 @@ public class main {
 
         tstSort.SelectionSort();
 
+        tstOO.abAdd(3, 5);
+        tstOO.abMinus(3, 5);
     }
 
 }
