@@ -8,6 +8,10 @@ public class StringDemo {
         System.out.println("testStringDemo :: ");
     }
 
+    public void testStringLength(){
+        System.out.println("String Len : "+str5.length());
+    }
+
     public void testStringEqual(){
         System.out.println("is str3 equal to str4 : " + str3.equals(str4));
 

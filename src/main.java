@@ -21,6 +21,7 @@ public class main {
         tstString.testStringEqual();
         tstString.testStringCompare();
         tstString.testSubString();
+        tstString.testStringLength();
         tstString.testFind();
 
         tstSCD.testInteger();
