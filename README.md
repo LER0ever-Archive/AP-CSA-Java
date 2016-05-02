@@ -1,5 +1,8 @@
 # AP-CSA-Java
 My Java Learning for AP Computer Science A
+
+# 本行文字在AP考试成绩下发后将改为我的成绩，现在的状态: (准备考试中 || 考试结束但成绩还没出来)
+
 ### One project to rule them all !
 
 
