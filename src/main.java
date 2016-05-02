@@ -11,6 +11,7 @@ public class main {
         ArrayDemo tstArray = new ArrayDemo();
         SortDemo tstSort = new SortDemo();
         OODemo tstOO = new OODemo();
+        SentenceDemo tstSentence = new SentenceDemo();
 
         tstSimple.testPrimitiveTypes();
         tstSimple.testExpressions();
@@ -35,6 +36,8 @@ public class main {
 
         tstOO.abAdd(3, 5);
         tstOO.abMinus(3, 5);
+
+        tstSentence.testSentence();
     }
 
 }
